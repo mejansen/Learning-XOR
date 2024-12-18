@@ -57,8 +57,6 @@ def main():
     NUM_EPOCHS = 1000
     operators = [XOR()]
 
-    row_idx = 0
-    column_idx = 0
     for operator in operators:
         mlp = MLP([2, 5, 1])
 
